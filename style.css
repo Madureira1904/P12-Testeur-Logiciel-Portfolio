@@ -17,6 +17,22 @@
     padding-bottom: 4rem;
 }
 
+.hiddenPanel p,
+.col-lg-8 p,
+.timelineText p,
+.col-md-6{
+    font-family: "Libre Baskerville";
+}
+
+.text-center{
+    font-family: "Merriweather";
+}
+
+.hero_title,
+.hero_desc{
+    font-family: "Syne";
+}
+
 /* display background dark color on navbar scroll */
 
 .navbarScroll.navbarDark {
@@ -42,7 +58,7 @@
             rgba(8,15,30,.65),
             rgba(8,15,30,.75)
         ),
-        url("images/image12.webp");
+        url("images/imagev.webp");
     background-size:cover;
     background-position:center;
     position:relative;
@@ -292,13 +308,14 @@
     padding:25px;
 }
 
-.hiddenPanel h4{
-    font-size:18px;
+.hiddenPanel h3{
+    font-size:22px;
     margin-bottom:15px;
+    font-family: "Merriweather";
 }
 
 .hiddenPanel p{
-    font-size:16px;
+    font-size:15px;
     line-height:1.2;
 }
 
@@ -360,7 +377,6 @@
 .col-lg-3{
     transform: translate(-280px, -20px);
     font-size:12px;
-
 }
 
 /* skills */
