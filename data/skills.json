@@ -1,31 +1,37 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "html-css.webp",
+        "alt": "Logo e ícones das tecnologias HTML5 e CSS3",
         "title": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
-        "image": "js.jpg",
+        "image": "js.webp",
+        "alt": "Logo da linguagem de programação JavaScript",
         "title": "javascript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
-        "image": "react.jpg",
+        "image": "react.webp",
+        "alt": "Logo da biblioteca React",
         "title": "React",
         "text": "Création d’applications React, création de composants et manipulation de leur état"
     },
     {
-        "image": "Gestion-de-projet-1280x640.png",
+        "image": "Gestion-de-projet.webp",
+        "alt": "Ilustração representando gestão e planejamento de projetos",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "Debugging-Techniques.jpg",
+        "image": "Debugging.webp",
+        "alt": "Ilustração representando depuração de código e otimização",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
     },
     {
-        "image": "QA-1.png",
+        "image": "QA-1.webp",
+        "alt": "Ilustração representando garantia de qualidade e testes de software",
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     }

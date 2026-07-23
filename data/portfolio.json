@@ -1,36 +1,42 @@
 [
     {
-        "image": "image1.png",
+        "image": "image11.webp",
+        "alt": "Aperçu de l'interface responsive du projet Booki",
         "title": "Booki",
         "text": "Intégration d'une interface responsive à partir d'une maquette Figma en HTML et CSS.",
         "link": "https://madureira1904.github.io/Project-3/"
     },
     {
         "image": "sophie1.webp",
+        "alt": "Aperçu de la galerie dynamique du projet Sophie Bluel",
         "title": "Sophie Bluel",
         "text": "Développement d'une galerie dynamique avec JavaScript et communication avec une API REST.",
         "link": "https://github.com/Madureira1904/Project-7"
     },
     {
-        "image": "image3.png",
+        "image": "image3.webp",
+        "alt": "Aperçu de l'application de location immobilière Kasa",
         "title": "Kasa",
         "text": "Création d'une application React avec composants réutilisables et React Router.",
         "link": "https://github.com/Madureira1904/Project-8"
     },
     {
-        "image": "menu-maker.jpg",
+        "image": "menu-maker.webp",
+        "alt": "Aperçu des spécifications fonctionnelles de Menu Maker",
         "title": "Menu Maker",
         "text": "Conception fonctionnelle d'une application avec spécifications techniques et gestion de projet.",
         "link": "#"
     },
     {
-        "image": "header - cópia.png",
+        "image": "header-cópia2.webp",
+        "alt": "Aperçu du site e-commerce Eco Bliss Bath",
         "title": "Eco Bliss Bath",
         "text": "Réalisation de tests manuels, API et automatisés avec Cypress pour une boutique en ligne.",
         "link": "https://github.com/Madureira1904/Project-10"
     },
     {
-        "image": "logo - cópia.png",
+        "image": "logo - cópia.webp",
+        "alt": "Logo du projet Print IT",
         "title": "Print IT",
         "text": "Optimisation, correction de bugs et personnalisation d'un portfolio professionnel de testeur logiciel.",
         "link": "https://madureira1904.github.io/Project-6/"

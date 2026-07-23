@@ -20,7 +20,16 @@
 /* display background dark color on navbar scroll */
 
 .navbarScroll.navbarDark {
-    background-color: #b1b0b0;
+    background:#04051f;
+
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+
+    margin:10px 20px 0;
+
+    width:auto;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 /* hero background image */
@@ -33,7 +42,7 @@
             rgba(8,15,30,.65),
             rgba(8,15,30,.75)
         ),
-        url("images/image1.jpg");
+        url("images/image12.webp");
     background-size:cover;
     background-position:center;
     position:relative;
@@ -41,24 +50,16 @@
 }
 
 .bgimage::after{
-
     content:"";
-
     position:absolute;
-
     left:0;
     bottom:0;
-
     width:100%;
     height:320px;
-
     pointer-events:none;
-
     z-index:4;
-
     background:linear-gradient(
         to bottom,
-
         rgba(255,255,255,0.000) 0%,
         rgba(255,255,255,0.003) 4%,
         rgba(255,255,255,0.006) 8%,
@@ -107,6 +108,10 @@
     transform: translate(-50%, -50%);
     color: white;
     z-index:10;
+}
+
+.navbarScroll .navbar-nav .nav-link{
+    color:#d3d6d6 !important;
 }
 
 /*   AURORA   */
@@ -219,7 +224,7 @@
 .terminal-header{
     background:rgba(255,255,255,.06);
     padding:10px 15px;
-    color:#8b8b8b;
+    color:#d5d2d2;
     font-size:13px;
     letter-spacing:3px;
 }
@@ -293,7 +298,7 @@
 
 .hiddenPanel p{
     font-size:16px;
-    line-height:1.4;
+    line-height:1.2;
 }
 
 .profileWrapper:hover .imageAboutPage{
@@ -529,350 +534,322 @@
 
 
 .qa-easter-egg{
-
     position:absolute;
-
     bottom:40px;
     right:40px;
-
     z-index:20;
-
 }
 
 .bug-icon{
-
     font-size:20px;
-
     cursor:help;
-
     opacity:.80;
-
     transition:.3s;
-
 }
 
 .bug-icon:hover{
-
     opacity:1;
-
     transform:scale(1.15);
-
 }
 
 .bug-tooltip{
-
     position:absolute;
-
     bottom:35px;
-
     right:0;
-
     width:300px;
-
     padding:18px;
-
     border-radius:14px;
-
     background:rgba(20,20,25,.95);
-
     color:white;
-
     box-shadow:0 15px 35px rgba(0,0,0,.35);
-
     opacity:0;
-
     visibility:hidden;
-
     transform:translateY(10px);
-
     transition:.35s;
-
 }
 
 .qa-easter-egg:hover .bug-tooltip{
-
     opacity:1;
-
     visibility:visible;
-
     transform:translateY(0);
-
 }
 
 .bug-tooltip h5{
-
     margin-bottom:12px;
-
     color:#7dd3fc;
-
 }
 
 .bug-tooltip p{
-
     margin:0 0 10px;
-
     font-size:.9rem;
-
     line-height:1.5;
-
 }
 
 /* footer */
 
 .footer{
-
     background:#111827;
-
     color:white;
-
     padding:50px 20px 25px;
-
     text-align:center;
-
 }
+
 .footer-quote{
-
     max-width:650px;
-
     margin:0 auto 30px;
-
 }
+
 .footer-quote .quote{
-
     color:#d1d5db;
-
     font-style:italic;
-
     line-height:1.8;
-
     font-size:.95rem;
-
 }
+
 .footer-quote .author{
-
     display:block;
-
     margin-top:10px;
-
-    color:#8b949e;
-
+    color:#dcdedf;
     font-size:.8rem;
-
     letter-spacing:2px;
-
 }
+
 .copyright{
-
     margin-top:25px;
-
-    color:#6b7280;
-
+    color:#b7bbc4;
     font-size:.8rem;
-
 }
 
 /* MODAL */
 
 .archive-modal{
-
     border:none;
     border-radius:18px;
     background:#0f172a;
     color:white;
-
     box-shadow:0 0 40px rgba(14,165,233,.25);
-
 }
 
 .archive-modal .modal-header{
-
     border-bottom:1px solid rgba(255,255,255,.08);
-
 }
 
 .archive-modal .modal-title{
-
     font-weight:600;
     letter-spacing:.5px;
-
 }
 
 .archive-modal .btn-close{
-
     filter:invert(1);
-
 }
 
 .archive-intro{
-
     color:#94a3b8;
     margin-bottom:35px;
-
 }
 
 .timeline{
-
     position:relative;
-
     margin-left:18px;
-
     padding-left:35px;
-
 }
 
 .timeline::before{
-
     content:"";
-
     position:absolute;
-
     left:8px;
     top:0;
     bottom:0;
-
     width:2px;
-
     background:#0ea5e9;
-
 }
 
 .timeline-item{
-
     position:relative;
-
     margin-bottom:35px;
-
 }
 
 .timeline-item::before{
-
     content:"";
-
     position:absolute;
-
     left:-31px;
     top:7px;
-
     width:14px;
     height:14px;
-
     border-radius:50%;
-
     background:#38bdf8;
-
     box-shadow:0 0 12px #38bdf8;
-
 }
 
 .year{
-
     color:#38bdf8;
-
     font-weight:700;
-
     font-size:18px;
-
     margin-bottom:8px;
-
 }
+
 .timeline-item p{
-
     color:#898d91;
-
     line-height:1.6;
-
 }
 
 .archive-ending{
-
     margin-top:40px;
-
     text-align:center;
-
     color:#2f93e6;
-
     font-style:italic;
-
     font-size:17px;
-
 }
 
 #archiveLoader{
-
     text-align:center;
-
     padding:70px 30px;
-
 }
 
 .loader-bar{
-
     width:100%;
-
     height:12px;
-
     background:#1e293b;
-
     border-radius:20px;
-
     overflow:hidden;
-
     margin:30px 0;
-
 }
 
 .loader-progress{
-
     width:0%;
-
     height:100%;
-
     background:#38bdf8;
-
 }
 
 #loaderStatus{
-
     color:#94a3b8;
-
     font-family:monospace;
-
 }
 
 
 /* CV */
 
 .footer-cv{
-
     display:flex;
-
     flex-direction:column;
-
     align-items:center;
-
 }
+
 .footer-qr{
-
     width:90px;
-
     border-radius:10px;
-
     transition:.35s;
-
     cursor:pointer;
-
 }
+
 .footer-qr:hover{
-
     transform:scale(1.08);
+}
+
+.footer-cv p{
+    margin-top:10px;
+    font-size:14px;
+    color:#94a3b8;
+}
+
+
+@media (max-width:768px){
+
+.terminal{
+    height: 30%;
+    width:55%;
+    transform:scale(.85);
+    transform-origin:top center;
+}
+
+.contactColumn{
+    transform:none;
+    text-align:center;
+    margin:30px auto;
 
 }
-.footer-cv p{
 
-    margin-top:10px;
+.profileWrapper{
+    width:320px;
+    margin:auto;
+    height:auto;
+}
 
-    font-size:14px;
+.imageAboutPage{
+    position:relative;
+    width:280px;
+    height:280px;
+    display:block;
+    margin:0 auto 20px;
+    transform:none !important;
+}
 
-    color:#94a3b8;
+.hiddenPanel{
+    position:relative;
+    left:0;
+    top:0;
+    width:100%;
+    height:auto;
+    opacity:1;
+    visibility:visible;
+    transform:none;
+    margin:20px auto;
+    padding:25px;
+    display:block;
+}
+
+}
+
+@media (max-width:576px){
+
+.profileWrapper{
+
+    width:80%;
+    max-width:240px;
+    margin:auto;
+}
+
+.navbar{
+     width:100%;
+    max-width:100%;
+
+
+}
+
+.navbar .container{
+    width:100%;
+    max-width:100%;
+    padding-left:12px;
+    padding-right:12px;
+ }
+
+ .navbar-brand{
+    font-size:1rem;
+    white-space:nowrap;
+
+ }
+
+.navbar-toggler{
+    flex-shrink:0;
+ }
+
+ .aurora1,
+.aurora2{
+    display:none;
+}
+
+.imageAboutPage{
+    width:240px;
+    height:240px;
+    max-width:100%;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.hero_title{
+    font-size:2.5rem;
+    line-height:1.1;
+    }
+
 
 }
