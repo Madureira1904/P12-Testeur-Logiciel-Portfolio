@@ -656,12 +656,9 @@
     letter-spacing:.5px;
 }
 
-.archive-modal .btn-close{
-    filter:invert(1);
-}
 
 .archive-intro{
-    color:#94a3b8;
+    color:#696c70;
     margin-bottom:35px;
 }
 
@@ -706,7 +703,7 @@
 }
 
 .timeline-item p{
-    color:#898d91;
+    color:#616366;
     line-height:1.6;
 }
 
@@ -739,8 +736,31 @@
 }
 
 #loaderStatus{
-    color:#94a3b8;
+    color:#6b727c;
     font-family:monospace;
+}
+
+.archive-close{
+
+    background:none;
+    border:none;
+
+    color:white;
+
+    font-size:1.6rem;
+
+    transition:.3s;
+
+}
+
+.archive-close:hover{
+
+    color:#4fc3f7;
+
+    transform:rotate(90deg);
+
+    cursor:pointer;
+
 }
 
 
