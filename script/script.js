@@ -59,6 +59,7 @@ function createSkillsFromJSON() {
             });
         });
 }
+
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");

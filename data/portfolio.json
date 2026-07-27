@@ -1,6 +1,6 @@
 [
     {
-        "image": "image111.webp",
+        "image": "imageBoki.webp",
         "alt": "Aperçu de l'interface responsive du projet Booki",
         "title": "Booki",
         "text": "Intégration d'une interface responsive à partir d'une maquette Figma en HTML et CSS.",
@@ -14,7 +14,7 @@
         "link": "https://github.com/Madureira1904/Project-7"
     },
     {
-        "image": "image3.webp",
+        "image": "imageBoki.webp",
         "alt": "Aperçu de l'application de location immobilière Kasa",
         "title": "Kasa",
         "text": "Création d'une application React avec composants réutilisables et React Router.",
@@ -28,14 +28,14 @@
         "link": "#"
     },
     {
-        "image": "header-cópia2.webp",
+        "image": "headerEBB.webp",
         "alt": "Aperçu du site e-commerce Eco Bliss Bath",
         "title": "Eco Bliss Bath",
         "text": "Réalisation de tests manuels, API et automatisés avec Cypress pour une boutique en ligne.",
         "link": "https://github.com/Madureira1904/Project-10"
     },
     {
-        "image": "logo - cópia.webp",
+        "image": "PrintIT.webp",
         "alt": "Logo du projet Print IT",
         "title": "Print IT",
         "text": "Développement des fonctionnalités dynamiques en JavaScript selon les besoins d'un client.",
