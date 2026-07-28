@@ -122,12 +122,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(255, 255, 255);
     z-index:10;
 }
 
 .navbarScroll .navbar-nav .nav-link{
-    color:#d3d6d6 !important;
+    color:#ecf1f1 !important;
 }
 
 /*   AURORA   */
@@ -305,12 +305,11 @@
     opacity:0;
     transform:translateX(40px);
     transition:.6s;
-    padding:25px;
+    padding:20px;
 }
 
 .hiddenPanel h3{
     font-size:22px;
-    margin-bottom:15px;
     font-family: "Merriweather";
 }
 

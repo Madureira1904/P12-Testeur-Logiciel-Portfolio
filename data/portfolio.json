@@ -14,7 +14,7 @@
         "link": "https://github.com/Madureira1904/Project-7"
     },
     {
-        "image": "imageBoki.webp",
+        "image": "imageKasa.webp",
         "alt": "Aperçu de l'application de location immobilière Kasa",
         "title": "Kasa",
         "text": "Création d'une application React avec composants réutilisables et React Router.",
@@ -35,7 +35,7 @@
         "link": "https://github.com/Madureira1904/Project-10"
     },
     {
-        "image": "PrintIT.webp",
+        "image": "PrintIt.webp",
         "alt": "Logo du projet Print IT",
         "title": "Print IT",
         "text": "Développement des fonctionnalités dynamiques en JavaScript selon les besoins d'un client.",

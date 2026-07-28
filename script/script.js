@@ -126,6 +126,7 @@ for (let i = 0; i < 30; i++) {
 
 }
 
+
 const terminal = document.getElementById("terminalText");
 
 const cursor = document.createElement("span");
@@ -186,6 +187,7 @@ const sequences = [
 ]
 
 ];
+
 
 let currentSequence = 0;
 let currentLine = 0;
